@@ -7,4 +7,4 @@ while True:
         first = False
     else:
         time.sleep(random.randint(3, 15))
-    pyautogui.press("q")
+    pyautogui.press("f13")
