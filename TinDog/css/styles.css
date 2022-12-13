@@ -18,6 +18,13 @@ h1 {
     line-height: 1.5;
 }
 
+h2 {
+    font-family: 'Montserrat-Black';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
 h3 {
     font-family: 'Montserrat-Black';
     font-weight: bold;
@@ -81,4 +88,54 @@ p {
     color: #ff4c68;
 }
 
+/* Testimonial Section */
 
+#testimonials {
+    
+    text-align: center;
+    background-color: rgb(249, 118, 107);
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%; 
+}
+
+/* .card {
+    margin: 1%;
+    text-align: center;
+    border: 1px solid black;
+} */
+
+.btn {
+    margin: 10px auto;
+}
+
+/* Press Section */
+
+#press {
+    background-color: rgb(249, 118, 107);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
